@@ -1,0 +1,16 @@
+.paragraph {
+  outline: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  &-active {
+    border: 1px solid var(--primary-color);
+  }
+}
+
+.image {
+  display: flex;
+  border: 1px solid transparent;
+  &-active {
+    border: 1px solid var(--primary-color);
+  }
+}

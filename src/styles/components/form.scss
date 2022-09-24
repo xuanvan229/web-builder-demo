@@ -1,0 +1,36 @@
+.form-input {
+  padding: 5px 12px;
+  display: flex;
+  flex-direction: column;
+  label {
+    color: var(--gray-600);
+    font-size: 14px;
+  }
+
+  .input {
+    border: 1px solid var(--gray-600);
+    border-radius: 4px;
+    height: 28px;
+    padding: 0 8px;
+    font-size: 14px;
+    color: var(--gray-800);
+  }
+
+  .slide-container {
+    display: flex;
+  }
+
+  .input-slide {
+    flex: 1;
+  }
+
+  .value-slide {
+    text-align: right;
+    width: 40px;
+  }
+
+  .options-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
